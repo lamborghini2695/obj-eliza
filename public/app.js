@@ -30,7 +30,7 @@ app.controller('HomeController', ['$scope', function($scope) {
     method: {},
     dots: true,
     infinite: true,
-    autoplay: true,
+    autoplay: false,
     // autoplaySpeed: 200,
     speed: 300,
     slidesToShow: 1,
