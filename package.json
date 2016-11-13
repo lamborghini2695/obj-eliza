@@ -1,0 +1,20 @@
+{
+  "name": "elis-app",
+  "version": "0.0.1",
+  "description": "Elisabet test applicaton.",
+  "main": "server.js",
+  "author": "Elisabet",
+  "dependencies": {
+    "angular": "*",
+    "angular-animate": "^1.5.8",
+    "angular-route": "*",
+    "angular-slick-carousel": "^3.1.7",
+    "angular-ui-bootstrap": "^2.2.0",
+    "angular-ui-router": "^1.0.0-beta.3",
+    "bootstrap": "^3.3.7",
+    "express": "*",
+    "jquery": "^3.1.1",
+    "morgan": "*",
+    "slick-carousel": "^1.6.0"
+  }
+}
