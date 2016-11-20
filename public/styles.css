@@ -27,12 +27,28 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background-color: #3498db;
 }
 body {
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+/*
+ * Header
+ */
+
+
+.header {
+  background: #FFFFFF;
+  height: 180px;
+}
+.masthead-brand {
+  margin-top: 0px;
+}
+.img_title{
+  max-width: 50%;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -55,16 +71,7 @@ body {
 
 /* Padding for spacing */
 .inner {
-  padding: 30px;
-}
-
-
-/*
- * Header
- */
-.masthead-brand {
-  margin-top: 10px;
-  margin-bottom: 10px;
+ padding: 38px;
 }
 
 .masthead-nav > li {
@@ -97,7 +104,7 @@ body {
 
 @media (min-width: 768px) {
   .masthead-brand {
-    float: left;
+    float: center;
   }
   .masthead-nav {
     float: right;
@@ -132,7 +139,7 @@ body {
  * Affix and center
  */
 
-@media (min-width: 768px) {
+@media (min-width: 2000px) {
   /* Pull out the header and footer */
   .masthead {
     position: fixed;
@@ -158,13 +165,14 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 700px;
+    width: 100%;
+ 
   }
 }
 
 
 .slide{
-  margin: 0 40px;
+  margin: 90 40px;
 }
 .slide img{
   max-width: 500px;
