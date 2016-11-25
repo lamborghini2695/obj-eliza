@@ -142,8 +142,8 @@ body {
 @media (min-width: 2000px) {
   /* Pull out the header and footer */
   .masthead {
-    position: fixed;
-    top: 0;
+/*    position: fixed;
+    top: 0;*/
   }
   .mastfoot {
     position: fixed;
@@ -166,7 +166,7 @@ body {
   .mastfoot,
   .cover-container {
     width: 100%;
- 
+
   }
 }
 
@@ -184,4 +184,9 @@ body {
   padding: 20px;
   font-size: 18px;
   margin: 0 10px;
+}
+
+
+.chart-title p{
+  margin-top: 20px;
 }
